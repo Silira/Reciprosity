@@ -45,11 +45,15 @@
 
     * `String` Recipe name
 
-    * `Array` Ingredients
+    * `Array of Ingredients` Ingredients
 
     * `Enum` Recipe Type
 
     * `Function` Calculate a price*
+    
+    * `Array of Strings` Steps
+    
+    * `String` Notes
 
   * Ingredients
 
