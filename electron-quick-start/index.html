@@ -3,20 +3,32 @@
   <head>
     <meta charset="UTF-8">
     <title>Reciprosity</title>
+
+    <!--http://electron.rocks/library-is-not-defined/-->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="datastructure.js"></script>
+    <script src="testharness.js"></script>
+
   </head>
   <body>
     <h1>Reciprosity</h1>
+
+    <div>
+      <div id="ingredients">
+      </div>
+      <div id="recipes">
+      </div>
+    </div>
+
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
 
-    <script>
+    <!--<script>
       // You can also require other files to run in this process
       require('./renderer.js')
-    </script>
+    </script>-->
 
-    <script src="datastructure.js"></script>
-    
   </body>
 </html>
